@@ -14,8 +14,10 @@ A clean and functional **Todo List App** built using **React**, **Tailwind CSS**
 
 ##  Preview
 
-<!-- Add an image file to your repo or use a hosted link -->
-![App Screenshot](./screenshot.png)
+## VIEW OF APP
+![Screenshot 2025-06-28 173328](https://github.com/user-attachments/assets/e5a3ed36-37b9-4e13-bb60-e507d22c6209)
+
+
 
 ##  Getting Started
 
