@@ -1,12 +1,89 @@
-# React + Vite
+# ✅ Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and functional **Todo List App** built using **React**, **Tailwind CSS**, and **Context API**, featuring local persistence and smooth state management. Designed to help you stay productive and organized.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-  Global State Management with **React Context API**
+-  Add new todos easily
+- Edit existing todos and save changes
+-  Mark todos as **completed**
+- 🗑Remove/delete todos
+-  Persistent data using **localStorage**
+-  Responsive and modern UI with **Tailwind CSS**
 
-## Expanding the ESLint configuration
+##  Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<!-- Add an image file to your repo or use a hosted link -->
+![App Screenshot](./screenshot.png)
+
+##  Getting Started
+
+Follow these instructions to set up and run the app locally.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/todolistapp.git
+cd todolistapp
+2. Install dependencies
+bash
+Copy
+Edit
+npm install
+3. Start the development server
+bash
+Copy
+Edit
+npm run dev
+The app will typically be available at http://localhost:5173 if you're using Vite.
+
+ **Tech Stack**
+React – Frontend framework
+
+Tailwind CSS – Utility-first CSS framework
+
+Context API – State management
+
+localStorage – Client-side data persistence
+
+Vite – Build tool (if used)
+
+**Project Structure**
+bash
+Copy
+Edit
+src/
+│
+├── components/         # Reusable UI components
+├── contexts/            # Context API logic for global state
+├── hooks/              # Custom hooks (if any)
+├── App.jsx             # Main App component
+└── main.jsx            # Entry point
+**localStorage Integration**
+All your todos are saved in your browser's localStorage. This means:
+
+Your tasks persist after refreshing or closing the browser.
+
+No backend/database is required.
+
+** Future Improvements **
+ Search and filter todos
+ Dark mode toggle
+ Due dates and reminders
+ Subtasks and categories
+ Sync with cloud/backend
+ Productivity statistics and streak tracker
+
+ Contributing
+Contributions, suggestions, and feedback are always welcome!
+Fork the repo
+Create your branch: git checkout -b feature/yourFeature
+Commit your changes: git commit -m 'Add your feature'
+Push to the branch: git push origin feature/yourFeature
+Open a pull request
+
+📄 License
+This project is licensed under the MIT License.
+
+Built with  by Manas Raj
