@@ -1,4 +1,5 @@
-# ✅ Todo List App
+#  Todo List App
+## deployed at netlify:https://todoplanapp.netlify.app/
 
 A clean and functional **Todo List App** built using **React**, **Tailwind CSS**, and **Context API**, featuring local persistence and smooth state management. Designed to help you stay productive and organized.
 
